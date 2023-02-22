@@ -12,9 +12,8 @@ Following .Net Packages Used
 - NUnit
 - Moq
 - NLog (Log manager)
-- Pagination apply on server side
+- Pagination applied on server side
 
-EntityFrameworkCore InMemory used to store Records. 
-
+EntityFrameworkCore InMemory used to store the records. 
 
 NOTE: App is deployed on https://emunit.azurewebsites.net/
