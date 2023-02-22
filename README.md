@@ -15,3 +15,6 @@ Following .Net Packages Used
 - Pagination apply on server side
 
 EntityFrameworkCore InMemory used to store Records. 
+
+
+NOTE: App is deployed on https://emunit.azurewebsites.net/
