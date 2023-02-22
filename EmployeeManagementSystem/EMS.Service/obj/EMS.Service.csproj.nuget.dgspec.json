@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Service\\EMS.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\EMS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\EMS.Core.csproj",
+        "projectName": "EMS.Core",
+        "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\EMS.Core.csproj",
+        "packagesPath": "C:\\Users\\H-H Traders\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H-H Traders\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj": {
+                "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj",
+        "projectName": "EMS.Models",
+        "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj",
+        "packagesPath": "C:\\Users\\H-H Traders\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H-H Traders\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Service\\EMS.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Service\\EMS.Service.csproj",
+        "projectName": "EMS.Service",
+        "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Service\\EMS.Service.csproj",
+        "packagesPath": "C:\\Users\\H-H Traders\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H-H Traders\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\EMS.Core.csproj": {
+                "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Core\\EMS.Core.csproj"
+              },
+              "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj": {
+                "projectPath": "C:\\Users\\H-H Traders\\Downloads\\EmployeeManagementSystem\\EmployeeManagementSystem- unittest\\EMS.Models\\EMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

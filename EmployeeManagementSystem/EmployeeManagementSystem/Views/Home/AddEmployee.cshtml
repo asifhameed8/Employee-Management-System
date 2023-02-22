@@ -1,0 +1,164 @@
+﻿@model EMS.Models.Entities.Employee
+
+<!-- Modal -->
+<div class="modal fade" id="EmployeeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+        <div class="modal-content">
+            <form action="#" onsubmit="return SaveEmployee()">
+                <div class="modal-header" style="margin-bottom: 0 !important;">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Employee's</h5>
+                    <button onclick="closePopup()" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-horizontal" style="padding-bottom:15px">
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input type="hidden" id="txtEmplyeeId" />
+                                <label class="control-label">Name</label>
+                                <input type="text" id="txtEmpName" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="control-label">Email</label>
+                                <input type="email" id="txtEmpEmail" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="control-label">Date of Birth</label>
+                                <input type="date" id="txtEmpDateOfBirth" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="control-label">Department</label>
+                                <select class="form-control" required id="ddlempDepartment">
+                                    <option value=""> Select</option>
+                                    <option value="Account"> Account</option>
+                                    <option value="Dev"> Dev</option>
+                                    <option value="IT"> IT</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" onclick="closePopup()" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary" value="Save changes" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function LoadEmployee(id) {
+        $('#EmployeeModal').modal('show')
+        $("#txtEmplyeeId").val(0)
+        if (id != 0) {
+            $("#exampleModalLongTitle").html("Edit Employee's");
+            $.ajax({
+                type: "GET",
+                url: "/api/Employee/GetEmployeeById/" + id,
+                //data: '{id: "' + id + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                success: function (response) {
+                    var data = JSON.parse(response);
+                    $("#txtEmpName").val(data.name);
+                    $("#txtEmpEmail").val(data.email);
+                    $("#txtEmpDateOfBirth").val(moment(data.dateOfBirth).format('YYYY-MM-DD'))
+                    $("#ddlempDepartment").val(data.departmentName)
+                    $("#txtEmplyeeId").val(data.id)
+                },
+                failure: function (response) {
+                    //alert(response.responseText);
+                    toastr.success(response);
+                },
+                error: function (response) {
+                    //alert(response.responseText);
+                    toastr.success(response);
+                }
+            });
+        }
+        else {
+            $("#exampleModalLongTitle").html("Add Employee's");
+            clearFields();
+        }
+    }
+
+    function clearFields() {
+        $("#txtEmplyeeId").val(0);
+        $("#txtEmpName").val('');
+        $("#ddlempDepartment").val('');
+        $("#txtEmpDateOfBirth").val('');
+        $("#txtEmpEmail").val('');
+    }
+
+    function closePopup() {
+        $('#EmployeeModal').modal('hide')
+    }
+
+    function SaveEmployee() {
+        var employee = {
+            id: $("#txtEmplyeeId").val(),
+            name: $("#txtEmpName").val(),
+            departmentName: $("#ddlempDepartment").val(),
+            dateOfBirth: $("#txtEmpDateOfBirth").val(),
+            email: $("#txtEmpEmail").val()
+        }
+
+        $.ajax({
+            type: "Post",
+            url: "/api/Employee/SaveEmployee",
+            data: JSON.stringify(employee),
+            contentType: "application/json",
+            success: function (data) {
+                toastr.success('Employee has been Saved successfully');
+                LoadRequest();
+                closePopup();
+            },
+            failure: function (response) {
+                alert(response.d);
+                toastr.error(response.d);
+            },
+            error: function (response) {
+                alert(response.d);
+                toastr.error(response.d);
+            }
+        });
+        return false;
+    }
+
+    function DeleteEmployee(id) {
+        if (confirm('Are you sure you want to delete this employee ?')) {
+            $.ajax({
+                type: "Delete",
+                url: "/api/Employee/DeleteEmployee/" + id,
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data == "Success")
+                        toastr.success('Employee has been deleted successfully');
+                    else
+                        toastr.error('Error');
+                    window.location = window.location
+                },
+                failure: function (response) {
+                    alert(response.d);
+                    toastr.error(response.d);
+                },
+                error: function (response) {
+                    alert(response.d);
+                    toastr.error(response.d);
+                }
+            });
+        }
+    }
+</script>

@@ -1,0 +1,12 @@
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Release\net6.0\EMS.Models.deps.json
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Release\net6.0\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Release\net6.0\EMS.Models.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.csproj.AssemblyReference.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.AssemblyInfoInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.AssemblyInfo.cs
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.csproj.CoreCompileInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\refint\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\EMS.Models.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Release\net6.0\ref\EMS.Models.dll

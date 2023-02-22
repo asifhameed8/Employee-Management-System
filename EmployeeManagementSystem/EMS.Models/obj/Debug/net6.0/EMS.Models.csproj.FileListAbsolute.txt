@@ -1,0 +1,48 @@
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Debug\net6.0\EMS.Models.deps.json
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Debug\net6.0\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\bin\Debug\net6.0\EMS.Models.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.AssemblyReference.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfoInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfo.cs
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.CoreCompileInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\refint\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\EMS.Models.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Models\obj\Debug\net6.0\ref\EMS.Models.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.deps.json
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.AssemblyReference.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfoInputs.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfo.cs
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\refint\EMS.Models.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\ref\EMS.Models.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.deps.json
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.AssemblyReference.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfoInputs.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfo.cs
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\refint\EMS.Models.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\ref\EMS.Models.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.deps.json
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.AssemblyReference.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfoInputs.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.AssemblyInfo.cs
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\refint\EMS.Models.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\EMS.Models.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Models\obj\Debug\net6.0\ref\EMS.Models.dll

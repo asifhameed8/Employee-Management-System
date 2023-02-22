@@ -1,0 +1,138 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+*@
+@Html.Partial("addemployee")
+<div class="row heading">
+Employee List
+</div>
+<div class="form-group row">
+    <div class="col-md-3">
+        <label>Name</label>
+        <input class="form-control" type="text" id="txtName" />
+    </div>
+    <div class="col-md-3">
+        <label>Email</label>
+        <input class="form-control" type="text" id="txtEmail" />
+    </div>
+    <div class="col-md-3">
+        <label>Department</label>
+        <select class="form-control" id="ddlDepartment">
+            <option value=""> Select</option>
+            <option value="Account"> Account</option>
+            <option value="Dev"> Dev</option>
+            <option value="IT"> IT</option>
+        </select>
+    </div>
+</div>
+<br />
+<div class="form-group row">
+    <div class="col-md-12">
+        <input type="button" class="btn btn-primary" value="Search" onclick="LoadRequest()" />
+        <input type="button" class="btn btn-warning" onclick="reset()" value="Reset" />
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary" onclick="LoadEmployee(0)">
+            Add Employee
+        </button>
+
+    </div>
+</div>
+<br />
+<div class="col-md-12 grid" style="padding: 15px 2px; background: white; border-radius: 5px; border-top: 3px solid #3c8dbc;">
+    <table id="tblEmployee" class="table nowrap">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Departments</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        &nbsp;
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script>
+
+        function LoadRequest() {
+            var q = "name:" + $('#txtName').val() + "," + "email:" + $("#txtEmail").val() + "," + "departmentName:" + $("#ddlDepartment").val();
+
+            var table = $('#tblEmployee').DataTable();
+            table.search(q).draw();
+            $("input[type=search]").val("");
+        }
+
+        function reset(){
+             $('#txtName').val('') ;
+             $("#txtEmail").val('');
+             $("#ddlDepartment").val('');
+            LoadRequest();
+        }
+
+
+        $(document).ready(function () {
+            LoadEmployeeList();
+            $("#tblEmployee_filter").hide();
+        });
+
+        function LoadEmployeeList() {
+            $("#tblEmployee").DataTable(
+                {
+                    "sAjaxSource": "/api/Employee/GetAllEmployee",
+                    "bServerSide": true,
+                    "bProcessing": true,
+                    "bSearchable": true,
+                    "bFilter": true,
+                    //"order": [[1, 'asc']],
+                    "language": {
+                        "emptyTable": "No record found.",
+                        "processing":
+                            '<i class="fa fa-spinner fa-spin fa-3x fa-fw" style="color:#2a2b2b;"></i><span class="sr-only">Loading...</span> '
+                    },
+                    columns: [
+
+                        {
+                            'data': 'name',
+                        },
+                        {
+                            'data': 'email'
+                        },
+                        {
+                            'data': 'dateOfBirth'
+                        },
+                        {
+                            'data': 'departmentName'
+
+                        },
+                        {
+                            "render": function (data, type, full, meta) {
+                                return ' <td width="15%"><button onclick=LoadEmployee("' + full.id + '")  class="btn roles_dpChange greenbtn btn-labeled"><i class="fa fa-pencil" style="font-size: 12px; padding-right: 5px;"></i></button> <button onclick=DeleteEmployee("' + full.id + '") class="btn roles_dpChange btn-labeled redbtn"><i class="fa fa-trash" style="font-size: 12px; padding-right: 5px;"></i></button></td>'
+                            }
+                        }
+
+                    ],
+                    columnDefs: [{
+                        targets: 2,
+                        render: function (data, type, row) {
+                            return moment(row.dateOfBirth).format('MM/DD/YYYY');
+                        }
+                        //render: DataTable.render.datetime('Do MMM YYYY')
+                    }]
+                });
+        }
+    </script>
+
+}

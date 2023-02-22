@@ -1,0 +1,68 @@
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Service.deps.json
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Service.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Service.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Core.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Models.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Core.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\bin\Debug\net6.0\EMS.Models.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.AssemblyReference.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfoInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfo.cs
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CoreCompileInputs.cache
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CopyComplete
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\refint\EMS.Service.dll
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\EMS.Service.pdb
+D:\Projects\Sample\EmployeeManagementSystem\EMS.Service\obj\Debug\net6.0\ref\EMS.Service.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.deps.json
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.AssemblyReference.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfoInputs.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfo.cs
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CoreCompileInputs.cache
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CopyComplete
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\refint\EMS.Service.dll
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.pdb
+C:\Users\taha.farhaj\Downloads\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\ref\EMS.Service.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.deps.json
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.AssemblyReference.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfoInputs.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfo.cs
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CoreCompileInputs.cache
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CopyComplete
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\refint\EMS.Service.dll
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.pdb
+C:\Users\Taha\Downloads\EmployeeManagementSystem- unittest-12\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\ref\EMS.Service.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.deps.json
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Service.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Core.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\bin\Debug\net6.0\EMS.Models.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.AssemblyReference.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfoInputs.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.AssemblyInfo.cs
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CoreCompileInputs.cache
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.csproj.CopyComplete
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\refint\EMS.Service.dll
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\EMS.Service.pdb
+C:\Users\H-H Traders\Downloads\EmployeeManagementSystem\EmployeeManagementSystem- unittest\EMS.Service\obj\Debug\net6.0\ref\EMS.Service.dll

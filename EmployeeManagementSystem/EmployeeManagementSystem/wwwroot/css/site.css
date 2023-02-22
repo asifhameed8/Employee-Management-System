@@ -1,0 +1,86 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    margin-bottom: 18px;
+    padding-top: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.grid {
+    padding: 15px 13px;
+    background: white;
+    border-radius: 5px;
+    border-top: 3px solid #3c8dbc;
+    border-bottom: 2px solid #3c8dbc;
+    border-left: 1px solid #3c8dbc;
+    border-right: 1px solid #3c8dbc;
+}
+input[type=text]:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+}
+input, option {
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+.heading, .modal-header {
+    color: #545050;
+    margin-top: -15px;
+    background: #99d4f7;
+    border-radius: 9px 9px 0 0;
+    height: 48px;
+    padding: 9px 0 0 15px;
+    font-weight: bold;
+    margin-bottom: 15px !important;
+}
+.form-group {
+    margin-bottom: 0 !important
+}
+.modal-title{
+    line-height:0.7 !important;
+}
+.modal-body {
+    padding: 0 1rem !important;
+}
+label {
+    margin-top: 0.5rem; 
+}
+.modal-header .close {
+    padding: 0.5rem 1rem !important;
+}
+.greenbtn {
+    background: #28a745 !important;
+    color: white !important;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 14px !important;
+}
+
+.redbtn {
+    background: #dc3545 !important;
+    color: white !important;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 14px !important;
+    margin-left: 5px;
+}
